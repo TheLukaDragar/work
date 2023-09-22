@@ -2,8 +2,8 @@
 
 #include "cxx.h"
 
-namespace comm {
+namespace work {
 
 void stringCallback(rust::String error, uint32_t promiseID, rust::String ret);
 
-} // namespace comm
+} // namespace work

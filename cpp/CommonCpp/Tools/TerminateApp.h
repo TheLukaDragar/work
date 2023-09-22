@@ -1,10 +1,10 @@
 #pragma once
 
-namespace comm {
+namespace work {
 
 class TerminateApp {
 public:
   static void terminate();
 };
 
-} // namespace comm
+} // namespace work

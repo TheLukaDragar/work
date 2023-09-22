@@ -2,7 +2,7 @@
 #include "Logger.h"
 #include <sstream>
 
-namespace comm {
+namespace work {
 
 WorkerThread::WorkerThread(const std::string name)
     : tasks(folly::MPMCQueue<std::unique_ptr<taskType>>(100)), name(name) {
@@ -39,4 +39,4 @@ WorkerThread::~WorkerThread() {
   }
 }
 
-} // namespace comm
+} // namespace work

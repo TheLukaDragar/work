@@ -5,7 +5,7 @@
 #include <string>
 #include <thread>
 
-namespace comm {
+namespace work {
 
 using taskType = std::function<void()>;
 
@@ -20,4 +20,4 @@ public:
   ~WorkerThread();
 };
 
-} // namespace comm
+} // namespace work

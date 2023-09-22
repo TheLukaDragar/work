@@ -62,4 +62,4 @@ void RustPromiseManager::rejectPromise(uint32_t id, const std::string &error) {
   removePromise(id);
 }
 
-} // namespace comm
+} // namespace work

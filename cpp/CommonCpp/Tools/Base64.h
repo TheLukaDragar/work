@@ -4,7 +4,7 @@
 #include <string_view>
 #include <vector>
 
-namespace comm {
+namespace work {
 
 class Base64 {
 public:
@@ -12,4 +12,4 @@ public:
   static std::vector<uint8_t> decode(const std::string_view base64String);
 };
 
-} // namespace comm
+} // namespace work

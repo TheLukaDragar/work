@@ -9,13 +9,11 @@ include(GNUInstallDirs)
 
 set(NATIVE_HDRS
   
-  "CommUtilsModule.h"
   "CommRustModule.h"
 )
 
 set(NATIVE_SRCS
   
-  "CommUtilsModule.cpp"
   "CommRustModule.cpp"
 )
 

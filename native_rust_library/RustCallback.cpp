@@ -6,7 +6,7 @@
 #include <future>
 #include <iostream>
 
-namespace comm {
+namespace work {
 
 void stringCallback(rust::String error, uint32_t promiseID, rust::String ret) {
   auto it = RustPromiseManager::instance.promises.find(promiseID);
@@ -23,4 +23,4 @@ void stringCallback(rust::String error, uint32_t promiseID, rust::String ret) {
   }
 }
 
-} // namespace comm
+} // namespace work

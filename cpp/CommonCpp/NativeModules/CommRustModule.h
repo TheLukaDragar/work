@@ -22,4 +22,4 @@ namespace work
     CommRustModule(std::shared_ptr<facebook::react::CallInvoker> jsInvoker);
   };
 
-} // namespace comm
+} // namespace work
